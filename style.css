@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-style: normal;
+    font-family: '' Franklin Gothic Medium ', sans-serif';
+    text-decoration: none;
+}
+.page1 {
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.navbar {
+    padding-top: 2%;
+    padding-left: 1%;
+}
+.navItems {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navName {
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.navLinks {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: x-large;
+    padding: 0 20px 0 10px;
+}
+
+.intro {
+    padding: 60px;
+}
+
+.heading {
+    padding: 12vh;
+    font-size: 50px;
+}
+
+.head1 {
+    color: #1a1e30;
+}
+
+button {
+    background-color: #ade302;
+    border: 10px solid #ade302;
+    border-radius: 320px;
+    padding: 20px 30px;
+    margin: 10px;
+    font-size: x-large;
+}
+
+.buttonLearn {
+    margin: 20px auto;
+    padding: 10px 100px 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page2 {
+    background-image: url('img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.stuff {
+    padding: 0 11vh 11vh 0;
+    margin: 0 11vh 11vh 0;
+}
+.head2 {
+    color: white;
+    font-size: 62px;
+    padding: 15% 9% 0 9%;
+}
+.deets {
+    color: white;
+    padding: 0 15% 15% 9%;
+    font-size: 19px;
+    margin: 0 24px 0 0;
+}
+.head3 {
+    padding: 0 0 0 12vh;
+}
+.container {
+    display: flex;
+    padding: 4%;
+}
+.reviewLogo {
+    height: 35vh;
+    padding: 8vh 12vh 0 12vh;
+}
+li {
+    padding: 2%;
+}
+.footer {
+    background-image: url('/img/3.jpg');
+    padding: 0;
+    margin: 0;
+}
+.head4 {
+    padding: 12vh 0 0 12vh;
+}
+.container2 {
+    padding: 10vh;
+    margin: 0 10vh 0 70vh;
+}
+.logos {
+    display: flex;
+}
+.logoImg {
+    height: 40px;
+    padding: 0 18px 0 0;
+}
+ul {
+    list-style: none;
+}
+.contactList {
+    padding: 2vh;
+}
